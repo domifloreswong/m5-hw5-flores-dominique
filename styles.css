@@ -1,0 +1,136 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  body {
+    background: url('../images/wheat.png') fixed;
+  }
+  
+  h1,
+  h3 {
+    margin: 4px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  main p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 140%;
+    margin-top: 25px;
+    word-wrap:normal;
+  }
+  
+  /*=========================
+  Header 
+  ===========================*/
+  
+  .container {
+    max-width: 1000px;
+    margin: 0px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    background-color: whitesmoke;
+  }
+  
+  header {
+    background-color: whitesmoke;
+    border-bottom: 3px solid rgb(51, 44, 82);
+    text-align: center;
+  }
+  
+  header p {
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgb(29, 55, 78);
+    padding: 8px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  nav a {
+    color: rgb(35, 63, 90);
+    padding: 0px 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 0 18px;
+    border-left: 1px solid rgb(61, 1, 61);
+    border-right: 1px solid rgb(61, 1, 61);
+  }
+  
+  nav a:hover {
+    background-color: gray;
+    text-decoration:none;
+  }
+  
+  /*=========================
+  Body 
+  ===========================*/
+  
+  .about {
+    float: left;
+    background-color: rgb(202, 199, 199);
+    width: 60%;
+    padding: 20px 20px;
+    max-width: 400px;
+    margin: 20px 50px 20px 350px;
+  }
+    
+  img {
+    float: left;
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-bottom: 5px;
+    border-radius: 1px;
+    border-style: outset;
+    box-shadow:10px 8px 5px rgb(156, 154, 154);
+    padding: auto;
+    clear: both;
+    display: inline;
+  }
+  
+  .box {
+    background-color: rgb(202, 199, 199);
+    width: 40%;
+    margin: 20px 110px 20px 0px;
+    padding: 20px 20px;
+    max-width: 300px;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .line {
+    border-bottom: 2px solid gray;
+    display: block;
+  }
+  
+  .column {
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 4px;
+  }
+  
+  
+  /*=========================
+  Footer
+  ===========================*/
+  main::after {
+    content:"";
+    clear: both;
+    display: block;
+  }
+  
+  .footer {
+    background-color: rgb(29,59,78);
+    text-align: center;
+    margin-top: 20%;
+    padding: 10px;
+    color: white;
+    border-top: 4px solid rgb(61, 1, 61);
+  }
